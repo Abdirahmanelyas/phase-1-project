@@ -56,7 +56,7 @@ function displayHourlyForecast(data) {
     }
 }
 
-const jsonServer = require('json-server');
+const jsonServer = equire('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('data.json');
 const middlewares = jsonServer.defaults();
